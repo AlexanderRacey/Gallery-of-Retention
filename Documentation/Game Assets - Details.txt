@@ -1,0 +1,1 @@
+This file lists all assets used within this project, freely sourced from the Unity Asset Store.
