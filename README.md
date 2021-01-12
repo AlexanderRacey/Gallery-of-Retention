@@ -3,7 +3,7 @@ A VR compatible knowledge retention application constructed in C# using the Unit
 
 ## Assets
 * All assets were freely sourced from the Unity Asset store - https://assetstore.unity.com/hp
-* For more details on all used assets, see [Game Assets - Details](Documentation/Game Assets - Details)
+* For more details on all used assets, see [Game Assets - Details](Documentation/Game%20Assets%20-%20Details.txt)
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
