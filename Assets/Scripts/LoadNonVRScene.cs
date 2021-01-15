@@ -9,5 +9,6 @@ public class LoadNonVRScene : MonoBehaviour
     void Start()
     {
         SceneManager.LoadSceneAsync("NonVRScene");
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

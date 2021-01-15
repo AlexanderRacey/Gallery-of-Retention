@@ -7,14 +7,14 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: c60196a5169ed2b48bb7a0b09fbb48cd
   - enabled: 1
-    path: Assets/Scenes/VRScene.unity
-    guid: e9d920202d635164f93abdd0c8496b7e
-  - enabled: 1
     path: Assets/Scenes/NonVRScene.unity
     guid: 40b5f028b9414dc4294a3990151f3d3c
+  - enabled: 1
+    path: Assets/Scenes/VRScene.unity
+    guid: e9d920202d635164f93abdd0c8496b7e
   m_configObjects: {}
