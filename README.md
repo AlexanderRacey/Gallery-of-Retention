@@ -1,5 +1,8 @@
-# Knowledge Retention Application
-A VR compatible knowledge retention application constructed in C# using the Unity Engine. This application represents a substantial piece of supplimentary material created for my 4th year university dissertation/honours project.
+# Knowledge Retention Application (Art Gallery)
+A VR compatible knowledge retention application constructed in C# using the Unity Engine. 
+
+## Concept
+Players are placed within a makeshift Art Gallery, whereby they are asked to observe the exhibits for a set length of time. They are subsequently asked questions on what they have observed, in an attempt to record the quality of their short term retention. This application represents a substantial piece of supplimentary material created for my 4th year university dissertation/honours project.
 
 ## Assets
 * All assets were freely sourced from the Unity Asset store - https://assetstore.unity.com/hp
