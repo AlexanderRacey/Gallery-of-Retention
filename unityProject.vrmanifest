@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.knowledgeretentionapplication.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "F:\\GDY4\\Honours Project\\Application\\Knowledge Retention Application\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "F:\\GDY4\\Honours Project\\Application\\KRArt-Gallery\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Knowledge Retention Application [Testing]"
