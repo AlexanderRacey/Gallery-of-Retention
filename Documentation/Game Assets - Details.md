@@ -1,6 +1,9 @@
 # Game Assets - Details
 This file lists all assets used within this project, freely sourced from the Unity Asset Store.
 
+- Digitalism Font
+  https://www.dafont.com/digitalism.font?psize=l
+
 - Gridbox Prototype Materials
   https://assetstore.unity.com/packages/2d/textures-materials/gridbox-prototype-materials-129127
 

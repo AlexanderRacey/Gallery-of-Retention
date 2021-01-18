@@ -13,6 +13,7 @@ public class LoadNonVRScene : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("NonVRScene");
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     IEnumerator LoadLevel()
