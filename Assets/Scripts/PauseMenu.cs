@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool gameIsPaused = false;
-
     public GameObject pauseMenuUI;
 
     // Disable pause menu at start of game
