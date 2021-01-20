@@ -42,7 +42,6 @@ public class DoorController : MonoBehaviour
 
         if (doorIsOpening == true)
         {
-            mouseClickPrompt.SetActive(false);
             buttonAnimation.Play("DoorButtonPush");
             Door.transform.Translate(Vector3.up * Time.deltaTime * 5);
         }
@@ -61,6 +60,7 @@ public class DoorController : MonoBehaviour
         if (distanceFromPlayer < interactionDistance)
         {
             doorIsOpening = true;
+            mouseClickPrompt.SetActive(false);
         }
     }
 }
