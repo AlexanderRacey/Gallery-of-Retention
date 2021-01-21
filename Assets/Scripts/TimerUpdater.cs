@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 // Main timer
@@ -16,7 +17,8 @@ public class TimerUpdater : MonoBehaviour
     {
         // Total time displayed in seconds
         textMesh = GetComponent<TextMeshPro>();
-        time = 601.0f;
+        time = 20.0f;
+        //time = 601.0f;
         timerCounting = false;
     }
 
@@ -33,6 +35,11 @@ public class TimerUpdater : MonoBehaviour
             string minSec = string.Format("{0}:{1:00}", (int)time / 60, (int)time % 60);
             textMesh.text = minSec;
             time -= Time.deltaTime;
+
+            if (time < 0.0f)
+            {
+                SceneManager.LoadSceneAsync("ClosingScene");
+            }
         }
     }
 }
