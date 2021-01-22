@@ -11,6 +11,7 @@ public class LoadNonVRScene : MonoBehaviour
     // Switches to MainScene on button click
     void Start()
     {
+        LoadLevel();
         SceneManager.LoadSceneAsync("NonVRScene");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

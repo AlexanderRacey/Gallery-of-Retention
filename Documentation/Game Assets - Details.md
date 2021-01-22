@@ -1,6 +1,9 @@
 # Game Assets - Details
 This file lists all assets used within this project, freely sourced from the Unity Asset Store.
 
+- Classic Picture Frame
+  https://assetstore.unity.com/packages/3d/props/furniture/classic-picture-frame-59038
+
 - Digitalism Font
   https://www.dafont.com/digitalism.font?psize=l
 
@@ -18,3 +21,6 @@ This file lists all assets used within this project, freely sourced from the Uni
 	
 - World Materials Free
   https://assetstore.unity.com/packages/2d/textures-materials/world-materials-free-150182#content
+
+- Yughues Free Pillars & Columns
+  https://assetstore.unity.com/packages/3d/environments/yughues-free-pillars-columns-13103

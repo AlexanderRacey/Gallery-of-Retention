@@ -2,13 +2,13 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.knowledgeretentionapplication.exe",
+      "app_key": "application.generated.unity.krartgallery.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "F:\\GDY4\\Honours Project\\Application\\KRArt-Gallery\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "Knowledge Retention Application [Testing]"
+          "name": "KRArt Gallery [Testing]"
         }
       }
     }

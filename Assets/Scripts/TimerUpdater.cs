@@ -8,6 +8,8 @@ using TMPro;
 public class TimerUpdater : MonoBehaviour
 {
     public GameObject doorButton;
+    public Animator transition;
+    public float transitionTime = 1.0f;
 
     private TextMeshPro textMesh;
     private float time;
@@ -17,7 +19,7 @@ public class TimerUpdater : MonoBehaviour
     {
         // Total time displayed in seconds
         textMesh = GetComponent<TextMeshPro>();
-        time = 20.0f;
+        time = 21.0f;
         //time = 601.0f;
         timerCounting = false;
     }
@@ -38,8 +40,14 @@ public class TimerUpdater : MonoBehaviour
 
             if (time < 0.0f)
             {
+                LoadLevel();
                 SceneManager.LoadSceneAsync("ClosingScene");
             }
         }
+    }
+    IEnumerator LoadLevel()
+    {
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
     }
 }
