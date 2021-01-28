@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 471860513}
   - component: {fileID: 471860512}
   m_Layer: 0
-  m_Name: KRArtGallery
+  m_Name: MRGallery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,8 +487,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 101}
-  m_SizeDelta: {x: 670.2739, y: 139.67236}
+  m_AnchoredPosition: {x: 0, y: 113}
+  m_SizeDelta: {x: 884.62915, y: 134.80066}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471860512
 MonoBehaviour:
@@ -509,7 +509,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: KRArt Gallery
+  m_text: 'Memory Retention
+
+    Gallery'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}

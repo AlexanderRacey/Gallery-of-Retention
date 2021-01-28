@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Quit from main menu
+// Quit application from main menu
 public class QuitGame : MonoBehaviour
 {
     void Start()
