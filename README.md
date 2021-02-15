@@ -1,4 +1,4 @@
-# Memory Retention Gallery
+# Gallery of Retention
 A VR-compatible memory retention application constructed in C# using the Unity Engine. The application can also be used within a 2D viewport, such as a regular computer monitor.
 
 ## Concept
@@ -7,6 +7,7 @@ Players are placed within a makeshift Art Gallery, whereby they are asked to obs
 ## Assets
 * All assets were sourced from the Unity Asset store - https://assetstore.unity.com/hp
 * For more details on all used assets, see [Game Assets - Details](Documentation/Game%20Assets%20-%20Details.txt)
+* For more details on all images used, see [Image Assets - Details](Docimentation/Image%20Assets%20-%20Details.txt)
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
