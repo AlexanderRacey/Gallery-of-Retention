@@ -16,6 +16,9 @@ This file lists all assets used within this project, freely sourced from the Uni
 - Lighting Generator
   https://assetstore.unity.com/packages/3d/props/electronics/lighting-generator-28173
 
+- Plants
+  https://assetstore.unity.com/packages/3d/vegetation/plants/plants-150261 
+
 - Wooden PBR Table
   https://assetstore.unity.com/packages/3d/props/wooden-pbr-table-112005
 	
