@@ -19,8 +19,9 @@ public class TimerUpdater : MonoBehaviour
     {
         // Total time displayed in seconds
         textMesh = GetComponent<TextMeshPro>();
-        time = 21.0f;
-        //time = 601.0f;
+        
+        //time = 21.0f;
+        time = 601.0f;
         timerCounting = false;
     }
 

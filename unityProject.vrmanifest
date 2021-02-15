@@ -5,10 +5,10 @@
       "app_key": "application.generated.unity.krartgallery.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "F:\\GDY4\\Honours Project\\Application\\KRArt-Gallery\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "F:\\GDY4\\Honours Project\\Application\\Gallery of Retention\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "KRArt Gallery [Testing]"
+          "name": "Gallery of Retention [Testing]"
         }
       }
     }
