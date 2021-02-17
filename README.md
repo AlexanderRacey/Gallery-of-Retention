@@ -6,8 +6,8 @@ Players are placed within a makeshift Art Gallery, whereby they are asked to obs
 
 ## Assets
 * All assets were sourced from the Unity Asset store - https://assetstore.unity.com/hp
-* For more details on all used assets, see [Game Assets - Details](Documentation/Game%20Assets%20-%20Details.txt)
-* For more details on all images used, see [Image Assets - Details](Documentation/Image%20Assets%20-%20Details.txt)
+* For more details on all used assets, see [Game Assets - Details](Documentation/Game%20Assets%20-%20Details)
+* For more details on all images used, see [Image Assets - Details](Documentation/Image%20Assets%20-%20Details)
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
