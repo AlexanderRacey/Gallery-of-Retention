@@ -10,6 +10,9 @@ This file lists all assets used within this project, freely sourced from the Uni
 - Discobolus Statue
   https://assetstore.unity.com/packages/3d/props/discobolus-statue-107544
 
+- Free Low Poly Chess Set
+  https://assetstore.unity.com/packages/3d/props/free-low-poly-chess-set-116856
+
 - Gridbox Prototype Materials
   https://assetstore.unity.com/packages/2d/textures-materials/gridbox-prototype-materials-129127
 
