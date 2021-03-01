@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+// VR scene game timer
 public class VRTimerUpdater : MonoBehaviour
 {
-    public GameObject doorButton;
+    public GameObject vrDoorButton;
     public Animator transition;
     public float transitionTime = 1.0f;
 
@@ -27,7 +28,7 @@ public class VRTimerUpdater : MonoBehaviour
     // Start timer when door opens
     void Update()
     {
-        if (doorButton.GetComponent<VRDoorController>().vrDoorOpening == true)
+        if (vrDoorButton.GetComponent<VRDoorController>().vrDoorOpening == true)
         {
             timerCounting = true;
         }
@@ -45,6 +46,12 @@ public class VRTimerUpdater : MonoBehaviour
             }
         }
     }
+
+    void TimerStart()
+    {
+        timerCounting = true;
+    }
+
     IEnumerator LoadLevel()
     {
         transition.SetTrigger("Start");

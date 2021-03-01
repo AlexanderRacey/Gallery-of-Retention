@@ -382,6 +382,20 @@ MonoBehaviour:
       m_Height: 109
     m_Scale: 1
     m_AtlasIndex: 0
+  - m_Index: 16
+    m_Metrics:
+      m_Width: 76.53125
+      m_Height: 14.203125
+      m_HorizontalBearingX: 7.40625
+      m_HorizontalBearingY: 68.40625
+      m_HorizontalAdvance: 88.15625
+    m_GlyphRect:
+      m_X: 11
+      m_Y: 925
+      m_Width: 77
+      m_Height: 15
+    m_Scale: 1
+    m_AtlasIndex: 0
   m_CharacterTable:
   - m_ElementType: 1
     m_Unicode: 48
@@ -450,6 +464,10 @@ MonoBehaviour:
   - m_ElementType: 1
     m_Unicode: 115
     m_GlyphIndex: 86
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 45
+    m_GlyphIndex: 16
     m_Scale: 1
   m_AtlasTextures:
   - {fileID: 28981121099961358}
@@ -524,6 +542,10 @@ MonoBehaviour:
     m_Y: 780
     m_Width: 98
     m_Height: 130
+  - m_X: 0
+    m_Y: 914
+    m_Width: 98
+    m_Height: 36
   m_FreeGlyphRects:
   - m_X: 51
     m_Y: 36
@@ -533,10 +555,6 @@ MonoBehaviour:
     m_Y: 36
     m_Width: 16
     m_Height: 98
-  - m_X: 0
-    m_Y: 914
-    m_Width: 1023
-    m_Height: 109
   - m_X: 67
     m_Y: 260
     m_Width: 31
@@ -557,6 +575,10 @@ MonoBehaviour:
     m_Y: 910
     m_Width: 925
     m_Height: 113
+  - m_X: 0
+    m_Y: 950
+    m_Width: 1023
+    m_Height: 73
   m_fontInfo:
     Name: Electronic Highway Sign
     PointSize: 144

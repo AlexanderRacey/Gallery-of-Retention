@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VRScene.unity
     guid: a214ea23d39e86443a909dc312a716e1
+  - enabled: 1
+    path: Assets/Scenes/VRClosingScene.unity
+    guid: 5be8ae2109ffb65429bfb93720a299df
   - enabled: 0
     path: Assets/Scenes/VRScene(old).unity
     guid: e9d920202d635164f93abdd0c8496b7e
