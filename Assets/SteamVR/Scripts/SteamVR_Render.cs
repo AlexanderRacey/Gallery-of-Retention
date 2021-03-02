@@ -244,20 +244,18 @@ namespace Valve.VR
                 if (SteamVR.settings.pauseGameWhenDashboardVisible)
                 {
                     Time.timeScale = timeScale;
+                    SteamVR_Camera.sceneResolutionScale = sceneResolutionScale;
                 }
-
-                SteamVR_Camera.sceneResolutionScale = sceneResolutionScale;
             }
             else
             {
                 if (SteamVR.settings.pauseGameWhenDashboardVisible)
                 {
                     timeScale = Time.timeScale;
-                    Time.timeScale = 0.0f;
+                    Time.timeScale = 1.0f;
                 }
-
                 sceneResolutionScale = SteamVR_Camera.sceneResolutionScale;
-                SteamVR_Camera.sceneResolutionScale = 0.5f;
+                //SteamVR_Camera.sceneResolutionScale = 0.5f;
             }
         }
 

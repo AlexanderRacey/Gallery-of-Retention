@@ -21,7 +21,7 @@ namespace Valve.VR
             }
         }
 
-        public bool pauseGameWhenDashboardVisible = true;
+        public bool pauseGameWhenDashboardVisible = false;
         public bool lockPhysicsUpdateRateToRenderFrequency = true;
         public ETrackingUniverseOrigin trackingSpace
         {
