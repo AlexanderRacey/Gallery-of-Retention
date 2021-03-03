@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
+    public GameObject playerMouseLook;
 
     // Disable pause menu at start of game
     void Start()
@@ -37,6 +38,7 @@ public class PauseMenu : MonoBehaviour
         gameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        playerMouseLook.GetComponent<MouseLook>().mouseSensitivity = 100;
     }
 
     void Pause()
@@ -46,6 +48,7 @@ public class PauseMenu : MonoBehaviour
         gameIsPaused = true;
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
+        playerMouseLook.GetComponent<MouseLook>().mouseSensitivity = 0;
     }
 
     public void LoadMenu()
